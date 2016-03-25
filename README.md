@@ -1,4 +1,14 @@
-て、下部の Import ボタンを押して全てをインポートします
+# oracle_compute_cloud_api_dhc
+
+本キットは、Oracle Compute Cloud の REST API の動作を、Google Chrome のプラグインである DHC を使って簡単に確認するためのテンプレートです
+あくまで動作確認が目的ですので、複雑なスクリプトなどはこちらで組むことはできませんし、デモ映えのするファンシーな画面があるわけはありませんが、GUIツールを使用することで、Compute CloudのREST APIの動作や構造を簡単に理解することができるようになります。
+
+## インストール
+1. Google Chrome を用意します
+2. Chrome Webstore より、[DHC REST Client](https://chrome.google.com/webstore/detail/dhc-rest-client/aejoelaoggembcahagimdiliamlcdmfm) をダウンロードし、インストールします
+3. DHC を起動します
+4. 左のメニューペイン下部の Import ボタンをクリックし、ポップアップしたメニューから Import DHC Repository を選択します
+5. File から [OracleComputeCloudAPI.json](OracleComputeCloudAPI.json) をクリックします、下に現れるオブジェクトのうち ▼FIle の左にあるチェックボックスを選択して、下部の Import ボタンを押して全てをインポートします
 6. インポートが完了し、左のメニューペインの中、▼My drive の下に Oracle Compute Cloud Service というツリーが現れたことを確認します
 
 ## 使い方
